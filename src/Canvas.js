@@ -89,7 +89,7 @@ class Canvas extends Component {
         };
 
         //We use the native fetch API to make resquests to the server
-        const req = await fetch('http://172.20.10.4:4000/paint', {
+        const req = await fetch('/paint', {
             method: 'post',
             headers: {
                 'content-type': 'application/json'
